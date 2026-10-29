@@ -1,0 +1,10 @@
+{
+  "name": "8-maluco",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jogo de cartas 8 Maluco online para quatro jogadores",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}
